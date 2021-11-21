@@ -53,12 +53,15 @@ import {
             />
           </Flex>
           <Flex flex={{ base: 1 }} justify={{ base: 'center', md: 'start' }}>
+            <NextLink href='/'>
             <Text
               textAlign={useBreakpointValue({ base: 'center', md: 'left' })}
               fontFamily={'heading'}
-              color={useColorModeValue('gray.800', 'white')}>
+              color={useColorModeValue('gray.800', 'white')} cursor='pointer'>
               Logo
             </Text>
+            </NextLink>
+           
   
             <Flex display={{ base: 'none', md: 'flex' }} ml={10}>
               <DesktopNav />

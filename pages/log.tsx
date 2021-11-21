@@ -2,7 +2,7 @@ import type { NextPage } from 'next'
 
 import Navigation from '../components/navigation'
 
-const Home: NextPage = () => {
+const Log: NextPage = () => {
   return (
     <div>
      <Navigation/>
@@ -10,4 +10,4 @@ const Home: NextPage = () => {
   )
 }
 
-export default Home
+export default Log
